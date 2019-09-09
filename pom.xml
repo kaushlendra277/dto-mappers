@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.ksc.dozermapping</groupId>
+	<artifactId>dozer-mapping</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>dozer-mapping-name</name>
+	<description>dozer-mapping-desc</description>
+	<properties>
+		<jdk.version>1.8</jdk.version>
+		<mavem.compiler.source>${jdk.version}}</mavem.compiler.source>
+		<maven.compiler.target>${jdk.version}</maven.compiler.target>
+	</properties>
+	<dependencies>
+		<dependency>
+			<groupId>net.sf.dozer</groupId>
+			<artifactId>dozer</artifactId>
+			<version>5.5.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.9</version>
+		</dependency>
+	</dependencies>
+</project>
